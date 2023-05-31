@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Netflix</title>
+</head>
+<body>
+    <main>
+        <section id="sidebar">
+            <a href="" class="logo">
+                <h3>Netflix<span class="brown">.</span></h3>
+            </a>
+            <div class="menu-con">
+                <ul class="menus">
+                    <span class="menu-h">Menu</span>
+                    <li id="Browse">
+                        <div class="hov-l"></div><a href="#Browse"><i class="fa-brands fa-safari"></i> <span> Browse
+                            </span></a>
+                    </li>
+                    <li id="Watchlist">
+                        <div class="hov-l"></div><a href="#Watchlist"><i class="fa-solid fa-calendar-days"></i><span>
+                                Watchlist </span></a>
+                    </li>
+                    <li id="comming-soon">
+                        <div class="hov-l"></div><a href="#comming-soon"><i class="fa-solid fa-heart"></i> <span> Coming
+                                soon </span></a>
+                    </li>
+                </ul>
+                <ul class="menus">
+                    <span class="menu-h">Social</span>
+                    <li id="Friends">
+                        <div class="hov-l"></div><a href="#Friends"><i class="fa-solid fa-user"></i> <span> Friends
+                            </span></a>
+                    </li>
+                    <li id="parties">
+                        <div class="hov-l"></div><a href="#parties"><i class="fa-solid fa-users"></i> <span> Parties
+                            </span></a>
+                    </li>
+                </ul>
+                <ul class="menus">
+                    <span class="menu-h">General</span>
+                    <li id="Setting">
+                        <div class="hov-l"></div><a href="#Setting"><i class="fa-solid fa-gear"></i> <span> Setting
+                            </span></a>
+                    </li>
+                    <li>
+                        <div class="hov-l"></div><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> <span>
+                                Log out </span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section id="content-con">
+            <nav>
+                <div class="start-con">
+                    <div class="indicator">
+                        <i class='bx bx-chevron-left'></i>
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="searchBox">
+                        <i class='bx bx-search'></i>
+                        <input type="text" name="search" id="search" placeholder="search">
+                    </div>
+                </div>
+                <div class="ending-con">
+                    <div class="notification">
+                        <div class="bell-i">
+                            <div class="circle"></div>
+                            <i class="fa-regular fa-bell"></i>
+                        </div>
+                        <div class="message-i">
+                            <div class="circle"></div>
+                            <i class="fa-regular fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="user-detail">
+                        <div class="img">
+                            <img src="./Images/profile/logo1.jpeg" alt="">
+                        </div>
+                        <div class="info">
+                            <p class="name">Ghanasham I.</p>
+                            <p class="level">Level 13</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="intro-con">
+                <div class="main-con">
+                    <div class="img">
+                        <img src="./Images/the-witcher-1.jpg" alt="" id="h-img">
+                    </div>
+                    <div class="top-cover-con">
+                        <div class="top-con">
+                            <p class="xp">XP / episode</p>
+                            <div class="friends-watch">
+                                <div class="images">
+                                    <img src="./Images/profile/profile1.jpg" alt="">
+                                    <img src="./Images/profile/profile6.jpg" alt="">
+                                    <img src="./Images/profile/profile2.jpg" alt="">
+                                </div>
+                                <p class="watch">+5 Friends are watching</p>
+                            </div>
+                        </div>
+                        <div class="bottom-con">
+                            <h1>The Witcher</h1>
+                            <p class="sub-heading"> 98% Match / 2 seasons</p>
+                            <div class="action-con">
+                                <button class="watch-btn">Watch</button>
+                                <button class="add-btn">+</button>
+                                <div class="image-card">
+                                    <img src="./Images/the-witcher-1.jpg"" alt="">
+                                    <img src=" ./Images/Stranger-Things.jpg" alt="">
+                                    <img src="./Images/ratched-sarah.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="parties-con">
+                <div class="heading-con">
+                    <h2 class="heading">Parties</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="movie-con">
+                    <div class="movie-box">
+                        <div class="thambnail">
+                            <img src="./Images/Wonder-Woman.jpg" alt="" id="m-img">
+                            <div class="images">
+                                <img src="./Images/profile/logo1.jpeg" alt="">
+                                <img src="./Images/profile/profile6.jpg" alt="">
+                                <img src="./Images/profile/profile2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p class="head"> Wonder woman</p>
+                            <p class="sub-head"> Adventure, Action</p>
+                        </div>
+                    </div>
+                    <div class="movie-box active">
+                        <div class="thambnail">
+                            <img src="./Images/spiderman.jpg" alt="" id="m-img">
+                            <div class="images">
+                                <img src="./Images/profile/profile6.jpg" alt="">
+                                <img src="./Images/profile/logo1.jpeg" alt="">
+                                <img src="./Images/profile/profile5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p class="head">Spiderman </p>
+                            <p class="sub-head"> Horror marathon</p>
+                        </div>
+                    </div>
+                    <div class="movie-box">
+                        <div class="thambnail">
+                            <img src="./Images/mortal-engines.jpg" alt="" id="m-img">
+                            <div class="images">
+                                <img src="./Images/profile/profile1.jpg" alt="">
+                                <img src="./Images/profile/profile6.jpg" alt="">
+                                <img src="./Images/profile/profile2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p class="head"> Mortal Engines</p>
+                            <p class="sub-head"> Science Fiction, Suspense</p>
+                        </div>
+                    </div>
+                    <div class="movie-box">
+                        <div class="thambnail">
+                            <img src="./Images/rampage.jpg" alt="" id="m-img">
+                            <div class="images">
+                                <img src="./Images/profile/profile5.jpg" alt="">
+                                <img src="./Images/profile/profile2.jpg" alt="">
+                                <img src="./Images/profile/logo1.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p class="head"> Rampage</p>
+                            <p class="sub-head"> Adventure, Action</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="watching-con">
+                <div class="heading-con">
+                    <h2 class="heading">Continue Watching</h2>
+                </div>
+                <div class="movie-con">
+                    <div class="movie-box">
+                        <div class="thambnail">
+                            <img src="./Images/spiderman.jpg" alt="" id="m-img">
+                        </div>
+                        <div class="info">
+                            <p class="head"> Spiderman</p>
+                        </div>
+                    </div>
+                    <div class="movie-box">
+                        <div class="thambnail two">
+                            <img src="./Images/el-camino.jpg" alt="" id="m-img">
+                        </div>
+                        <div class="info">
+                            <p class="head"> EI Camino</p>
+                        </div>
+                    </div>
+                    <div class="movie-box">
+                        <div class="thambnail three">
+                            <img src="./Images/Stranger-Things.jpg" alt="" id="m-img">
+                        </div>
+                        <div class="info">
+                            <p class="head"> Stranger Things</p>
+                        </div>
+                    </div>
+                    <div class="movie-box">
+                        <div class="thambnail two">
+                            <img src="./Images/rampage.jpg" alt="" id="m-img">
+                        </div>
+                        <div class="info">
+                            <p class="head"> Rampage</p>
+                        </div>
+                    </div>
+                    <div class="movie-box">
+                        <div class="thambnail two">
+                            <img src="./Images/ratched-sarah.jpg" alt="" id="m-img">
+                        </div>
+                        <div class="info">
+                            <p class="head"> Ratched</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="users-con">
+            <div class="back-btn">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+            <div class="actions">
+                <button class="plus-btn">+</button>
+            </div>
+            <div class="users">
+                <div class="img">
+                    <div class="circle"></div>
+                    <img src="./Images/profile/logo1.jpeg" alt="">
+                </div>
+                <div class="img">
+                    <div class="circle"></div>
+                    <img src="./Images/profile/profile2.jpg" alt="">
+                </div>
+                <div class="img">
+                    <div class="circle"></div>
+                    <img src="./Images/profile/profile4.jpg" alt="">
+                </div>
+                <div class="img">
+                    <div class="circle"></div>
+                    <img src="./Images/profile/profile1.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="./Images/profile/profile5.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="./Images/profile/profile6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
