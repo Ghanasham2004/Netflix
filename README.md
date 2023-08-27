@@ -6,7 +6,8 @@ This GitHub repository is a comprehensive implementation of a Netflix clone usin
 # Languages Used :
 - HTML
 - CSS
-
+# Live Demo :
+https://ghanasham2004.github.io/Netflix/
 
 # Final Output
  ![op-1](https://github.com/Ghanasham2004/Netflix/assets/105876844/2802b306-9054-46a5-8ea2-0de1396955bc)
